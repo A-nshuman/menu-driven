@@ -1,13 +1,10 @@
-i = 1
-
 dictonary = {"Addition" : 1, "Subtraction" : 2, "Multiplication" : 3, "Division" : 4, "EXIT" : 5}
 
-while i > 0:
+while True:
     print(f"\n{dictonary}")
     opp = input("Which opperator do you want to use? : ")
     num1 = int(input("Enter 1st number : "))
     num2 = int(input("Enter 2nd number : "))
-    i += 1
     
     if opp == '1':
         addition = num1 + num2
